@@ -1,0 +1,9 @@
+serviceAccountKey.json
+*.json
+!data/*.json
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/

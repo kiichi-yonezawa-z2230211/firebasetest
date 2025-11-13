@@ -1,0 +1,20 @@
+{
+  "user1": {
+    "name": "田中太郎",
+    "email": "tanaka@example.com",
+    "age": 30,
+    "city": "東京"
+  },
+  "user2": {
+    "name": "佐藤花子",
+    "email": "sato@example.com",
+    "age": 25,
+    "city": "大阪"
+  },
+  "user3": {
+    "name": "鈴木一郎",
+    "email": "suzuki@example.com",
+    "age": 35,
+    "city": "名古屋"
+  }
+}
