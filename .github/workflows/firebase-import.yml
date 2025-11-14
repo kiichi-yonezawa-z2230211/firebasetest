@@ -1,0 +1,62 @@
+name: Firebase Data Import
+
+on:
+  # 手動実行ボタン
+  workflow_dispatch:
+    inputs:
+      description:
+        description: 'インポート実行の説明'
+        required: false
+        default: '手動実行'
+  
+  # data/firestore配下のファイルが変更されたときに自動実行
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/firestore/**'
+      - 'src/**'
+      - 'pom.xml'
+
+jobs:
+  import-to-firestore:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # リポジトリのコードをチェックアウト
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    # Java 11をセットアップ
+    - name: Set up JDK 11
+      uses: actions/setup-java@v4
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        cache: maven
+    
+    # GitHub Secretsからサービスアカウントキーをファイルとして保存
+    - name: Create service account key file
+      run: |
+        echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}' > serviceAccountKey.json
+        echo "✅ サービスアカウントキーファイルを作成しました"
+    
+    # Mavenで依存関係をインストール
+    - name: Build with Maven
+      run: |
+        mvn clean install -DskipTests
+        echo "✅ ビルドが完了しました"
+    
+    # Firebaseにデータをインポート
+    - name: Import data to Firestore
+      run: |
+        echo "🚀 Firestoreへのデータインポートを開始します..."
+        mvn exec:java -Dexec.mainClass="com.example.firebase.BulkFirebaseImporter"
+        echo "✅ インポートが完了しました"
+    
+    # セキュリティ: 実行後にサービスアカウントキーを削除
+    - name: Clean up service account key
+      if: always()
+      run: |
+        rm -f serviceAccountKey.json
+        echo "🔒 サービスアカウントキーファイルを削除しました"
