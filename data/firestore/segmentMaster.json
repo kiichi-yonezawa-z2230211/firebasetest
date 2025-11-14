@@ -1,0 +1,23 @@
+{
+  "S001": {
+    "segmentId": "S001",
+    "segmentName": "営業部門",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "S002": {
+    "segmentId": "S002",
+    "segmentName": "開発部門",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "S003": {
+    "segmentId": "S003",
+    "segmentName": "管理部門",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

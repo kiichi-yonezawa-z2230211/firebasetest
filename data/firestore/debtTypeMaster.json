@@ -1,0 +1,16 @@
+{
+  "D01": {
+    "debtTypeCode": "D01",
+    "debtTypeName": "未払",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "D02": {
+    "debtTypeCode": "D02",
+    "debtTypeName": "広告宣伝費未払",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

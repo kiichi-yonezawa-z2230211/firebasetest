@@ -1,0 +1,30 @@
+{
+  "1": {
+    "importId": "1",
+    "vendorCode": "V001",
+    "invoiceNo": "INV001",
+    "accountCode": "AC001",
+    "description": "出張費",
+    "paymentAmount": 100000,
+    "taxTypeCode": "T01",
+    "burdenDeptCode": "A001",
+    "segmentCode": "S001",
+    "approvalNo": "APP001",
+    "withholdingAmount": 0,
+    "registrationDate": "2025-01-15T00:00:00Z"
+  },
+  "2": {
+    "importId": "2",
+    "vendorCode": "V002",
+    "invoiceNo": "INV002",
+    "accountCode": "AC002",
+    "description": "事務用品購入",
+    "paymentAmount": 50000,
+    "taxTypeCode": "T01",
+    "burdenDeptCode": "A002",
+    "segmentCode": "S002",
+    "approvalNo": "APP002",
+    "withholdingAmount": 0,
+    "registrationDate": "2025-01-16T00:00:00Z"
+  }
+}

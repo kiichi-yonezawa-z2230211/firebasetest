@@ -1,0 +1,16 @@
+{
+  "F001": {
+    "segmentId": "F001",
+    "segmentName": "本社セグメント",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "F002": {
+    "segmentId": "F002",
+    "segmentName": "店舗セグメント",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

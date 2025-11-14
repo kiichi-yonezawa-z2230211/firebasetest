@@ -1,0 +1,22 @@
+{
+  "V001": {
+    "sirsakCd": "V001",
+    "corpCd": "01",
+    "sirsakNm": "株式会社ABC",
+    "sirsakAddr1": "東京都千代田区1-1-1",
+    "tel": "03-1234-5678",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "V002": {
+    "sirsakCd": "V002",
+    "corpCd": "01",
+    "sirsakNm": "株式会社XYZ",
+    "sirsakAddr1": "大阪市北区2-2-2",
+    "tel": "06-9876-5432",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

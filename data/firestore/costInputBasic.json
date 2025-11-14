@@ -1,0 +1,30 @@
+{
+  "20250101-001": {
+    "slipNo": "20250101-001",
+    "affiliationCode": "A001",
+    "burdenDeptCode": "A001",
+    "vendorCode": "V001",
+    "accountCode": "AC001",
+    "segmentCode": "S001",
+    "paymentAmount": 100000,
+    "taxTypeCode": "T01",
+    "description": "出張費用",
+    "absorptionFlag": true,
+    "registrationDate": "2025-01-15T00:00:00Z",
+    "updatedAt": "2025-01-15T10:30:00Z"
+  },
+  "20250102-001": {
+    "slipNo": "20250102-001",
+    "affiliationCode": "A002",
+    "burdenDeptCode": "A002",
+    "vendorCode": "V002",
+    "accountCode": "AC002",
+    "segmentCode": "S002",
+    "paymentAmount": 50000,
+    "taxTypeCode": "T01",
+    "description": "事務用品購入",
+    "absorptionFlag": false,
+    "registrationDate": "2025-01-16T00:00:00Z",
+    "updatedAt": "2025-01-16T09:15:00Z"
+  }
+}

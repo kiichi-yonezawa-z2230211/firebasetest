@@ -1,0 +1,18 @@
+{
+  "1": {
+    "itemSegmentId": "1",
+    "accountCode": "AC001",
+    "segmentCode": "F001",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "2": {
+    "itemSegmentId": "2",
+    "accountCode": "AC002",
+    "segmentCode": "F002",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

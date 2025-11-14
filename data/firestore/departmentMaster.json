@@ -1,0 +1,32 @@
+{
+  "1": {
+    "sctnId": "1",
+    "corpCd": "01",
+    "sctnCd": "A001",
+    "sctnNm": "総務部",
+    "sctnRyaku": "総務",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "2": {
+    "sctnId": "2",
+    "corpCd": "01",
+    "sctnCd": "A002",
+    "sctnNm": "経理部",
+    "sctnRyaku": "経理",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "3": {
+    "sctnId": "3",
+    "corpCd": "01",
+    "sctnCd": "A003",
+    "sctnNm": "営業部",
+    "sctnRyaku": "営業",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

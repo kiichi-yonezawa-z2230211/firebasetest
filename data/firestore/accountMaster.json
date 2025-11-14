@@ -1,0 +1,29 @@
+{
+  "AC001": {
+    "calItmCd": "AC001",
+    "corpCd": "01",
+    "calItmNm": "旅費交通費",
+    "syzeiTaiKb": "1",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "AC002": {
+    "calItmCd": "AC002",
+    "corpCd": "01",
+    "calItmNm": "消耗品費",
+    "syzeiTaiKb": "1",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "AC003": {
+    "calItmCd": "AC003",
+    "corpCd": "01",
+    "calItmNm": "広告宣伝費",
+    "syzeiTaiKb": "1",
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

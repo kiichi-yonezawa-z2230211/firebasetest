@@ -1,0 +1,17 @@
+{
+  "ERR001": {
+    "errorCode": "ERR001",
+    "errorMessage": "必須項目が未入力です",
+    "stateFlg": 1
+  },
+  "ERR002": {
+    "errorCode": "ERR002",
+    "errorMessage": "マスタに存在しないコードです",
+    "stateFlg": 1
+  },
+  "ERR003": {
+    "errorCode": "ERR003",
+    "errorMessage": "金額が範囲外です",
+    "stateFlg": 1
+  }
+}

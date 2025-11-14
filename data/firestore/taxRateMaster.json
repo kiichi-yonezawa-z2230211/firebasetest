@@ -1,0 +1,16 @@
+{
+  "TR01": {
+    "taxRateCode": "TR01",
+    "taxRate": 10,
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  },
+  "TR02": {
+    "taxRateCode": "TR02",
+    "taxRate": 8,
+    "startDt": "2024-01-01",
+    "endDt": "2099-12-31",
+    "stateFlg": 1
+  }
+}

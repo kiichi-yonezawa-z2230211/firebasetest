@@ -1,6 +1,6 @@
 serviceAccountKey.json
 *.json
-!data/*.json
+!data/**/*.json
 target/
 .idea/
 *.iml

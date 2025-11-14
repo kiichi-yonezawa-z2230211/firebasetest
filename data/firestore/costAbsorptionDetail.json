@@ -1,0 +1,16 @@
+{
+  "20250101-001_A001": {
+    "slipNo": "20250101-001",
+    "sectionCode": "A001",
+    "sectionName": "総務部",
+    "absorpPrice": 50000,
+    "registrationDate": "2025-01-15T00:00:00Z"
+  },
+  "20250101-001_A002": {
+    "slipNo": "20250101-001",
+    "sectionCode": "A002",
+    "sectionName": "経理部",
+    "absorpPrice": 30000,
+    "registrationDate": "2025-01-15T00:00:00Z"
+  }
+}
